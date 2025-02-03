@@ -1,7 +1,7 @@
 module RedmineEditauthor
-  PLUGIN_ID = :redmine_editauthor
+  PLUGIN_ID ||= :redmine_editauthor
 
-  PATCHES = [
+  PATCHES ||= [
     'Issue'
   ]
 
